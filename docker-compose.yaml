@@ -27,12 +27,13 @@ services:
       - ./env/mysql.env
   composer:
     build:
+      # composer.dockerfile does not COPY anything
       context: ./dockerfiles
       dockerfile: composer.dockerfile
     volumes:
       - ./src:/var/www/html
   artisan:
-    build:
+    build: 
       context: .
       dockerfile: dockerfiles/php.dockerfile
     volumes:
