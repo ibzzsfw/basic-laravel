@@ -163,5 +163,6 @@ dist
 
 .DS_Store
 
+# Show README.md in src folder to make it visible on GitHub
 src/*
 !src/README.md
