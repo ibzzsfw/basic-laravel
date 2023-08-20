@@ -3,7 +3,7 @@ Just another template. please add appropriate env
 Create laravel project
 ----------------------
 
-this [installation] will init your [`src` folder].
+this [installation] will init your [`src` folder]. (You may need to create an empty directory, idk)
 
 ```bash
 docker-compose run --rm composer create-project --prefer-dist laravel/laravel .
