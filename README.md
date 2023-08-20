@@ -3,8 +3,8 @@ Just another template. please add appropriate env
 Create laravel project
 ----------------------
 [installation]: https://laravel.com/docs/10.x#your-first-laravel-project
-[src folder]: ./src
-this [installation] will init your [src folder].
+[`src` folder]: ./src
+this [installation] will init your [`src` folder].
 
 ```bash
 docker-compose run --rm composer create-project --prefer-dist laravel/laravel .
