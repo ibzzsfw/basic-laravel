@@ -2,8 +2,7 @@ Just another template. please add appropriate env
 
 Create laravel project
 ----------------------
-[installation]: https://laravel.com/docs/10.x#your-first-laravel-project
-[`src` folder]: ./src
+
 this [installation] will init your [`src` folder].
 
 ```bash
@@ -16,3 +15,6 @@ Run docker-compose
 ```bash
 docker-compose up -d --build
 ```
+
+[installation]: https://laravel.com/docs/10.x#your-first-laravel-project
+[`src` folder]: ./src

@@ -33,7 +33,7 @@ services:
     volumes:
       - ./src:/var/www/html
   artisan:
-    build: 
+    build:
       context: .
       dockerfile: dockerfiles/php.dockerfile
     volumes:
